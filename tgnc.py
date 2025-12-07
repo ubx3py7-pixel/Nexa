@@ -119,7 +119,7 @@ async def bot_loop(bot, chat_id, base, mode):
 # COMMANDS
 # ---------------------------
 async def start_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("💢 Welcome to Spyther Bot!\nUse /help to see all commands.")
+    await update.message.reply_text("💢 Welcome to NEXA🤍 Spyther Bot!\nUse /help to see all commands.")
 
 async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
